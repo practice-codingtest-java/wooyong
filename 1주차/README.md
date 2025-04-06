@@ -4,11 +4,13 @@
 
 ### 문자열
 - [괄호](https://www.acmicpc.net/problem/9012)
+  - String 인덱스 접근 `char c = str.charAt(j);`
 - [단어정렬](https://www.acmicpc.net/problem/1181)
   - 커스텀 정렬 Comparator vs Comparable
   - HashSet, LinkedHashSet, TreeSet 중 정렬 기능은 TreeSet만
   - TreeSet은 내부적으로 정렬 기준 요구해서 Comparator를 넣어줘야 함 
 - [펜린드롬 수](https://www.acmicpc.net/problem/1259)
+  - String -> StringBuilder로 바꿔서 `reverse` 메서드 사용
 
 ### 배열
 - [구간합](https://www.acmicpc.net/problem/11659)
