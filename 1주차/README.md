@@ -15,4 +15,6 @@
 ### 배열
 - [구간합](https://www.acmicpc.net/problem/11659)
 - [임시 반장 정하기](https://www.acmicpc.net/problem/1268)
+  - 2차원 배열 입력
+  - 문제 제대로 읽기  //몇번 같은 반이 되었느냐 count X -> 같은 반이 되어본 적 있는 사람의 수 count 
 - [두 수의 합](https://www.acmicpc.net/problem/3273)
