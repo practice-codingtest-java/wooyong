@@ -22,18 +22,19 @@
 ## 📝 Private
 
 ### 문자열
-- [단어 뒤집기](https://www.acmicpc.net/problem/9093)
+- [단어 뒤집기](https://www.acmicpc.net/problem/9093) 
   - String -> StringBuilder로 바꿔서 `reverse` 메서드 사용
 
 - [비슷한 단어](https://www.acmicpc.net/problem/1411)
 
-- [방 번호](https://www.acmicpc.net/problem/1475)
-  -9999를 배열로 받기 위해 `toCharArray()`
+- [영단어 암기는 괴로워](https://www.acmicpc.net/problem/20920)
+
 
 ### 배열
-- [소트인사이드](https://www.acmicpc.net/problem/1427)
+- [소트인사이드](https://www.acmicpc.net/problem/1427) 
   - `Arrays.sort()`를 쓰기 위해 (문자)배열로 변환 `toCharArray()`
 
-- [방 번호](https://www.acmicpc.net/problem/1475)
+- [방 번호](https://www.acmicpc.net/problem/1475) 
+  -9999를 배열로 받기 위해 `toCharArray()`
 
 - [배열 돌리기 1](https://www.acmicpc.net/problem/16926)
