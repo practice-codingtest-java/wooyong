@@ -18,3 +18,22 @@
   - 2차원 배열 입력
   - 문제 제대로 읽기  //몇번 같은 반이 되었느냐 count X -> 같은 반이 되어본 적 있는 사람의 수 count 
 - [두 수의 합](https://www.acmicpc.net/problem/3273)
+
+## 📝 Private
+
+### 문자열
+- [단어 뒤집기](https://www.acmicpc.net/problem/9093)
+  - String -> StringBuilder로 바꿔서 `reverse` 메서드 사용
+
+- [비슷한 단어](https://www.acmicpc.net/problem/1411)
+
+- [방 번호](https://www.acmicpc.net/problem/1475)
+  -9999를 배열로 받기 위해 `toCharArray()`
+
+### 배열
+- [소트인사이드](https://www.acmicpc.net/problem/1427)
+  - `Arrays.sort()`를 쓰기 위해 (문자)배열로 변환 `toCharArray()`
+
+- [방 번호](https://www.acmicpc.net/problem/1475)
+
+- [배열 돌리기 1](https://www.acmicpc.net/problem/16926)
