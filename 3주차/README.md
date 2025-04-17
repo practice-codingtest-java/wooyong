@@ -11,7 +11,13 @@
   - `setA.addAll(setB)`: setB에 포함된 모든 요소를 setA에 복사해서 **추가**
 - [수 찾기](https://www.acmicpc.net/problem/1920)
 - [차집합](https://www.acmicpc.net/problem/1822)
+  - `HashSet` : 순서 보장 X
+  - `TreeSet`: 오름차순 정렬해서 저장
+  - `LinkedHashSet`: 입력한 순서대로 저장
+  - 증가하는 순서로 출력 -> **TreeSet**
 - [에너그램 만들기](https://www.acmicpc.net/problem/1919)
+  - `a.charAt(index)`: String a에 대한 index접근
+  - `for (char ch : mapA.keySet())` : HashMap key 값 순회
 
 ## 📝 Private
 
