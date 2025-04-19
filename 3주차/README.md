@@ -27,7 +27,7 @@
 - [패션왕 신해빈](https://www.acmicpc.net/problem/9375)
 - [비슷한 단어](https://www.acmicpc.net/problem/2179)
 - [마니또](https://www.acmicpc.net/problem/5107)
-- [k번째 큰수]
-
-
+- [k번째 큰수](https://github.com/practice-codingtest-java/wooyong/blob/main/3%EC%A3%BC%EC%B0%A8/%EA%B0%9C%EC%9D%B8/README.md)
+  - `Set<Integer> set = new TreeSet<>(Collections.reverseOrder())`: TreeSet 내림차순 정렬
+  - 정렬된 TreeSet을 ArrayList로 변환 가능 -> `List<Integer> list = new ArrayList<>(set)`
 
