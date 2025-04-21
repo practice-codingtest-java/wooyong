@@ -23,6 +23,15 @@
 
 ### 해시, 트리
 - [트리](https://www.acmicpc.net/problem/1068)
+  - 내부 리스트 초기화 -> graph.get(i) 매서드 사용가능
+	```java
+	List<List<Integer>> graph = new ArrayList<>()
+
+	for (int i = 0; i < n; i++) {  
+	    graph.add(new ArrayList<>());  
+	}
+	```
+
 - [친구 네트워크](https://www.acmicpc.net/problem/4195)
 - [패션왕 신해빈](https://www.acmicpc.net/problem/9375)
 - [비슷한 단어](https://www.acmicpc.net/problem/2179)
