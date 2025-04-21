@@ -31,7 +31,7 @@
 	    graph.add(new ArrayList<>());  
 	}
 	```
-
+  - 리프 노드 -> graph.get(n).isEmpty()일 때!!
 - [친구 네트워크](https://www.acmicpc.net/problem/4195)
 - [패션왕 신해빈](https://www.acmicpc.net/problem/9375)
 - [비슷한 단어](https://www.acmicpc.net/problem/2179)
