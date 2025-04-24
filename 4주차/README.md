@@ -1,4 +1,4 @@
-# ✅ 3주차 ( DFS, BFS )
+# ✅ 4주차 ( DFS, BFS )
 
 ## 📝 Common, Private
 
@@ -13,6 +13,7 @@
 - [치킨배달](https://www.acmicpc.net/problem/15686)
 - [헌내기는 친구가 필요해](https://www.acmicpc.net/problem/21736)
 - [나무 탈출](https://www.acmicpc.net/problem/15900)
+  - 트리 BFS 기본 문제
 - [나이트의 이동](https://www.acmicpc.net/problem/7562)
 - [토마토](https://www.acmicpc.net/problem/7576)
 
