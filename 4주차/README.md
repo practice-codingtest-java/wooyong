@@ -7,6 +7,7 @@
 - [효율적인 해킹](https://www.acmicpc.net/problem/1325)
 - [DFS와 BFS](https://www.acmicpc.net/problem/1260)
 - [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)
+  - 트리 DFS 기본 문제
 - [미로 탐색](https://www.acmicpc.net/problem/2178)
 - [유기농 배추](https://www.acmicpc.net/problem/1012)
 - [단지번호붙이기](https://www.acmicpc.net/problem/2667)
