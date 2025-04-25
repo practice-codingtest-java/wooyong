@@ -7,6 +7,9 @@
   - 그래프 DFS 기본 문제 (인접리스트)
 - [효율적인 해킹](https://www.acmicpc.net/problem/1325)
 - [DFS와 BFS](https://www.acmicpc.net/problem/1260)
+  - 그래프의 각 노드의 인접 노드 리스트를 `정렬된 상태`로 유지하고 싶다!!
+    - TreeSet  사용: `static ArrayList<TreeSet<Integer>> graph = new ArrayList<>()` -> TreeSet은 인덱스 접근이 불가능 하므로, 향상된 for문으로 순회
+    - ArrayList + 정렬: `Collections.sort(graph.get(x))`
 - [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)
   - 트리 DFS 기본 문제 (인접리스트)
 - [미로 탐색](https://www.acmicpc.net/problem/2178)
