@@ -18,6 +18,7 @@
     - 좌표만 `Point`
   - 101111 문자열 받아서 in[][] matrix 배열로 받기
 - [유기농 배추](https://www.acmicpc.net/problem/1012)
+  - 2차원 배열(미로) 문제 `bfs` or `dfs`
 - [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 - [치킨배달](https://www.acmicpc.net/problem/15686)
 - [헌내기는 친구가 필요해](https://www.acmicpc.net/problem/21736)
