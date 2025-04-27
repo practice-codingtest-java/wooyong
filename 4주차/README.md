@@ -20,8 +20,11 @@
 - [유기농 배추](https://www.acmicpc.net/problem/1012)
   - 2차원 배열(미로) 문제 `bfs` or `dfs`
 - [단지번호붙이기](https://www.acmicpc.net/problem/2667)
+  - 2차원 배열(미로) 문제 `bfs` 
+  - 정렬한다고 무조건 `Set`쓰는 것은 아님 -> 값이 중복되는 경우에는 `ArrayList`에 저장 후 `Collection.sort(list)`
 - [치킨배달](https://www.acmicpc.net/problem/15686)
 - [헌내기는 친구가 필요해](https://www.acmicpc.net/problem/21736)
+  - 2차원 배열(미로) 문제 `bfs`
 - [나무 탈출](https://www.acmicpc.net/problem/15900)
   - 그래프(트리 포함) 문제 `bfs` `인접리스트`
 - [나이트의 이동](https://www.acmicpc.net/problem/7562)
