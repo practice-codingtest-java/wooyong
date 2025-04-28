@@ -23,10 +23,11 @@
 - [단지번호붙이기](https://www.acmicpc.net/problem/2667)
   - 정렬한다고 무조건 `Set`쓰는 것은 아님 -> 값이 중복되는 경우에는 `ArrayList`에 저장 후 `Collection.sort(list)`
 - [헌내기는 친구가 필요해](https://www.acmicpc.net/problem/21736)
-
+- [나이트의 이동](https://www.acmicpc.net/problem/7562)
+- [토마토](https://www.acmicpc.net/problem/7576)
+  - `bfs` 시작점이 여러개 -> 자료구조에 시작점 받고 큐에 한번에 넣기
 
 
 - [효율적인 해킹](https://www.acmicpc.net/problem/1325)
-- [나이트의 이동](https://www.acmicpc.net/problem/7562)
-- [토마토](https://www.acmicpc.net/problem/7576)
+
 - [치킨배달](https://www.acmicpc.net/problem/15686)
