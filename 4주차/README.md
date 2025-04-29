@@ -14,6 +14,9 @@
 - [나무 탈출](https://www.acmicpc.net/problem/15900)
   - `bfs`
 - [효율적인 해킹](https://www.acmicpc.net/problem/1325)
+  - `Arrays.fill(visited, false)` : 배열 false로 초기화
+  - dfs 자식 노드의 cnt 값 반환하면서 더하기
+  - dfs로 풀어서 시간 초과 나면 bfs로 바꿔서 풀 생각도 해보자
 
 ### 2차원 배열(미로) 문제
 - [미로 탐색](https://www.acmicpc.net/problem/2178)
