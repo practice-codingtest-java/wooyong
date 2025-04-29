@@ -13,6 +13,7 @@
   - `dfs`
 - [나무 탈출](https://www.acmicpc.net/problem/15900)
   - `bfs`
+- [효율적인 해킹](https://www.acmicpc.net/problem/1325)
 
 ### 2차원 배열(미로) 문제
 - [미로 탐색](https://www.acmicpc.net/problem/2178)
@@ -27,7 +28,8 @@
 - [토마토](https://www.acmicpc.net/problem/7576)
   - `bfs` 시작점이 여러개 -> 자료구조에 시작점 받고 큐에 한번에 넣기
 
-
-- [효율적인 해킹](https://www.acmicpc.net/problem/1325)
-
+### 그 외
 - [치킨배달](https://www.acmicpc.net/problem/15686)
+  - 백트래킹을 이용한 조합 -> for문 계산
+  - `List<Node> selected`를 매서드 매개변수로 넣어서 요소 추가하면서 계산
+  - 최소값 구할 때 `int min = Integer.MAX_VALUE;`
