@@ -35,6 +35,8 @@
 - [친구 네트워크](https://www.acmicpc.net/problem/4195)
 - [패션왕 신해빈](https://www.acmicpc.net/problem/9375)
 - [비슷한 단어](https://www.acmicpc.net/problem/2179)
+  - `str1.startsWih(str2)`: str1이 str2로 시작하는지 확인, true or false 리턴
+  - `str1.substring(0, 5)`: str1의 0번 인덱스부터 4번 인덱스까지 자름
 - [마니또](https://www.acmicpc.net/problem/5107)
 - [k번째 큰수](https://github.com/practice-codingtest-java/wooyong/blob/main/3%EC%A3%BC%EC%B0%A8/%EA%B0%9C%EC%9D%B8/README.md)
   - `Set<Integer> set = new TreeSet<>(Collections.reverseOrder())`: TreeSet 내림차순 정렬
