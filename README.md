@@ -1,4 +1,3 @@
-
 # ✅ 1주차 ( 문자열, 배열 )
 
 ## 문자열
@@ -16,7 +15,7 @@
 - [소트인사이드](https://www.acmicpc.net/problem/1427) [⭕]
 - [방 번호](https://www.acmicpc.net/problem/1475) [⭕]
 - [배열 돌리기 1](https://www.acmicpc.net/problem/16926) [❌]
-
+<br>
 
 # ✅ 2주차 ( 스택, 큐 )
 
@@ -26,6 +25,7 @@
 - [쇠막대기](https://www.acmicpc.net/problem/10799) [⭕]
 - [강의실 배정](https://www.acmicpc.net/problem/11000) [❌]
 - [뱀](https://www.acmicpc.net/problem/3190) [❌]
+<br>
 
 # ✅ 3주차 ( 해시, 트리 )
 
@@ -41,6 +41,7 @@
 - [비슷한 단어](https://www.acmicpc.net/problem/2179) [⭕]
 - [마니또](https://www.acmicpc.net/problem/5107) [⭕]
 - [k번째 큰수](https://github.com/practice-codingtest-java/wooyong/blob/main/3%EC%A3%BC%EC%B0%A8/%EA%B0%9C%EC%9D%B8/README.md) [⭕]
+<br>
 
 # ✅ 4주차 ( DFS, BFS )
 
@@ -61,6 +62,7 @@
 
 ## 그 외
 - [치킨배달](https://www.acmicpc.net/problem/15686) [⭕]
+<br>
 
 # ✅ 5주차 ( DFS, BFS 심화 )
 
@@ -70,6 +72,7 @@
 - [2048 (Easy)](https://www.acmicpc.net/problem/12100) [❌]
 - [폴더 정리 (small)](https://www.acmicpc.net/problem/22860) [⭕]
 - [벽 부수고 이동하기 3](https://www.acmicpc.net/problem/16933) [❌]
+<br>
 
 # ✅ 6주차 ( Dynamic Programming )
 
@@ -79,3 +82,4 @@
 - [계단 오르기](https://www.acmicpc.net/problem/2579) []
 - [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) [⭕]
 - [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11722) []
+<br>
