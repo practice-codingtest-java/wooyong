@@ -1,4 +1,4 @@
-# ✅ 4주차 ( DFS, BFS 심화 )
+# ✅ 5주차 ( DFS, BFS 심화 )
 
 ## 📝 Common, Private
 
