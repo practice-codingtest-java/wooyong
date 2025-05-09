@@ -13,6 +13,7 @@
 
 - [동전 2](https://www.acmicpc.net/problem/2294)
 - [연속합](https://www.acmicpc.net/problem/1912)
+  - 반복문을 이용한 Bottom-up 방법
 - [평범한 배낭](https://www.acmicpc.net/problem/12865)
 - [계단 오르기](https://www.acmicpc.net/problem/2579)
 - [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
