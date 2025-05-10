@@ -12,6 +12,8 @@
 ## 📝 Common, Private
 
 - [동전 2](https://www.acmicpc.net/problem/2294)
+  - Bottom-up DP 대표문제 -> 다시 풀어볼 것
+  - 이전 코인이 MAX_VALUE(초기값)인지 비교하여 패스하는 부분 주의
 - [연속합](https://www.acmicpc.net/problem/1912)
   - 반복문을 이용한 Bottom-up 방법
 - [평범한 배낭](https://www.acmicpc.net/problem/12865)
