@@ -76,10 +76,10 @@
 
 # ✅ 6주차 ( Dynamic Programming )
 
-- [동전 2](https://www.acmicpc.net/problem/2294) []
-- [연속합](https://www.acmicpc.net/problem/1912) []
+- [동전 2](https://www.acmicpc.net/problem/2294) [⭕]
+- [연속합](https://www.acmicpc.net/problem/1912) [⭕]
 - [평범한 배낭](https://www.acmicpc.net/problem/12865) []
-- [계단 오르기](https://www.acmicpc.net/problem/2579) []
+- [계단 오르기](https://www.acmicpc.net/problem/2579) [⭕]
 - [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) [⭕]
 - [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11722) []
 <br>
