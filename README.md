@@ -78,17 +78,17 @@
 
 - [동전 2](https://www.acmicpc.net/problem/2294) [⭕]
 - [연속합](https://www.acmicpc.net/problem/1912) [⭕]
-- [평범한 배낭](https://www.acmicpc.net/problem/12865) []
+- [평범한 배낭](https://www.acmicpc.net/problem/12865) [⭕]
 - [계단 오르기](https://www.acmicpc.net/problem/2579) [⭕]
 - [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) [⭕]
-- [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11722) []
+- [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11722) [⭕]
 <br>
 
 # ✅ 7주차 ( Dynamic Programming 심화 )
 
-- [색상환](https://www.acmicpc.net/problem/2482)
-- [파일 합치기](https://www.acmicpc.net/problem/11066)
-- [사회망서비스(sns)](https://www.acmicpc.net/problem/2533)
-- [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002)
-- [외판원 순회](https://www.acmicpc.net/problem/2098)
-- [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)
+- [색상환](https://www.acmicpc.net/problem/2482) [  ]
+- [파일 합치기](https://www.acmicpc.net/problem/11066) [  ]
+- [사회망서비스(sns)](https://www.acmicpc.net/problem/2533) [  ]
+- [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) [  ]
+- [외판원 순회](https://www.acmicpc.net/problem/2098) [  ]
+- [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049) [  ]
