@@ -35,7 +35,7 @@
 	} 
 	```
 	- **Knapsack Problem**: 매우 유명한 DP 문제
-	- 앞에서 부터 순회를 해서 중복으로 인해 계속 반례가 생겼었음
+	- 앞에서 부터 순회를 해서 중복으로 인해 계속 반례가 생겼었음 -> 다시 풀어볼 것!
 - [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
   - 반복문을 이용한 Bottom-up 방법
 - [가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
