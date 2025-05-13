@@ -1,3 +1,4 @@
+
 # ✅ 6주차 ( Dynamic Programming )
 
 - 메모리를 적절히 사용하여 **수행 시간 효율성**을 비약적으로 향상시키는 방법
@@ -18,7 +19,23 @@
   - 반복문을 이용한 Bottom-up 방법
 - [평범한 배낭](https://www.acmicpc.net/problem/12865)
 - [계단 오르기](https://www.acmicpc.net/problem/2579)
-  - 점화식 찾는 문제
+	```java  
+	//뒤에서부터 순회 -> 같은 물건 한 번만 사용 (중복 금지)
+	for (int j = k; j >= 0; j--) {  
+	    if (j >= p.weight) {  
+	        dp[j] = Math.max(dp[j], dp[j - p.weight] + p.value);  
+	    }  
+	}  
+
+	//앞에서부터 순회 -> 같은 물건 여러 번 사용 가능 (중복 허용)
+	for (int j = 0; j <= k; j++) {  
+	    if (j >= p.weight) {  
+	        dp[j] = Math.max(dp[j], dp[j - p.weight] + p.value);  
+	    }  
+	} 
+	```
+	- **Knapsack Problem**: 매우 유명한 DP 문제
+	- 앞에서 부터 순회를 해서 중복으로 인해 계속 반례가 생겼었음
 - [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
   - 반복문을 이용한 Bottom-up 방법
 - [가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
