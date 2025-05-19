@@ -3,7 +3,11 @@
 ## 📝 Common, Private
 
 - [색상환](https://www.acmicpc.net/problem/2482)
+  - 1번, N번 제외하고 선형으로 생각
+  - 완벽히 이해는 X (다시 풀어보기)
 - [파일 합치기](https://www.acmicpc.net/problem/11066)
+  - 누적합 배열을 통한 구간합 계산
+  - 2차원 DP, 3중 반복문, 완벽히 이해는 X (다시 풀어보기)
 - [사회망서비스(sns)](https://www.acmicpc.net/problem/2533)
 - [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002)
 	```java
