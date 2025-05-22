@@ -86,9 +86,21 @@
 
 # ✅ 7주차 ( Dynamic Programming 심화 )
 
-- [색상환](https://www.acmicpc.net/problem/2482) [  ]
-- [파일 합치기](https://www.acmicpc.net/problem/11066) [  ]
-- [사회망서비스(sns)](https://www.acmicpc.net/problem/2533) [  ]
-- [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) [  ]
-- [외판원 순회](https://www.acmicpc.net/problem/2098) [  ]
-- [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049) [  ]
+- [색상환](https://www.acmicpc.net/problem/2482) [⭕]
+- [파일 합치기](https://www.acmicpc.net/problem/11066) [⭕]
+- [사회망서비스(sns)](https://www.acmicpc.net/problem/2533) [❌]
+- [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) [⭕]
+- [외판원 순회](https://www.acmicpc.net/problem/2098) [❌]
+- [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049) [❌]
+<br>
+
+# ✅ 8주차 ( 이분탐색 )
+
+- [랜선 자르기](https://www.acmicpc.net/problem/1654)
+- [공유기 설치](https://www.acmicpc.net/problem/2110)
+- [개똥벌레](https://www.acmicpc.net/problem/3020)
+- [게임](https://www.acmicpc.net/problem/1072)
+- [나무 자르기](https://www.acmicpc.net/problem/2805)
+  - binarySearch에서 mid return X, result 변수 선언
+  - 어쨋든 **sum > target일 때만 정답**이기 때문에 해당 조건일 때 계속 mid를 result에 뒤집어씌우기
+- [K번째 수](https://www.acmicpc.net/problem/1300)
