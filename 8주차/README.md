@@ -15,3 +15,11 @@
   - binarySearch에서 mid return X, result 변수 선언
   - 어쨋든 **sum > target일 때만 정답**이기 때문에 해당 조건일 때 계속 mid를 result에 뒤집어씌우기
 - [K번째 수](https://www.acmicpc.net/problem/1300)
+  - 이분탐색의 기준 잡기가 어려웠음 B[k] = x에서 주어지지 않은 x를 기준으로 잡아야됨
+  - 2, 4, 6, 8, 10에서 5보다 같거나 작은수 -> N의 시간복잡도로 풀어야됨
+  ```java
+  //i=2(i의 배수), mid=5, n=5(1~5)
+  for (int i = 1; i <= n; i++) {
+    cnt += Math.min(n, mid / i);
+  }
+  ```
