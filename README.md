@@ -98,7 +98,7 @@
 
 - [랜선 자르기](https://www.acmicpc.net/problem/1654) [⭕]
 - [공유기 설치](https://www.acmicpc.net/problem/2110) [⭕]
-- [개똥벌레](https://www.acmicpc.net/problem/3020)
+- [개똥벌레](https://www.acmicpc.net/problem/3020) [⭕]
 - [게임](https://www.acmicpc.net/problem/1072) [⭕]
 - [나무 자르기](https://www.acmicpc.net/problem/2805) [⭕]
-- [K번째 수](https://www.acmicpc.net/problem/1300)
+- [K번째 수](https://www.acmicpc.net/problem/1300) [⭕]
