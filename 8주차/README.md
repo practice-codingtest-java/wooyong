@@ -8,6 +8,7 @@
   - 설치 수 count 구현할 때, arr.length 한번이면 됨
   - 두 공유기 사이의 거리를 기준으로 이분탐색
 - [개똥벌레](https://www.acmicpc.net/problem/3020)
+  - 누적합 -> how 이분탐색?
 - [게임](https://www.acmicpc.net/problem/1072)
   - 해야하는 게임수를 기준으로 이분탐색 
 - [나무 자르기](https://www.acmicpc.net/problem/2805)
