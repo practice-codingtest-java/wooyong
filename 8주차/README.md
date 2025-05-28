@@ -15,6 +15,7 @@
   - binarySearch에서 mid return X, result 변수 선언
   - 어쨋든 **sum > target일 때만 정답**이기 때문에 해당 조건일 때 계속 mid를 result에 뒤집어씌우기
   - 아래 이분탐색 방식으로도 풀어볼 것
+    
   |방식|설명|예|
   |------|---|---|
   |값을 기준으로|key와 배열 값 비교|target이 어디에 있는가|
