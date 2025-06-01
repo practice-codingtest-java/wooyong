@@ -11,6 +11,7 @@
 - [배](https://www.acmicpc.net/problem/1092)
 - [카드 정렬하기](https://www.acmicpc.net/problem/1715)
 - [주식](https://www.acmicpc.net/problem/11501)
+  - 규칙 찾은 후 **역방향 탐색**
 - [선 긋기](https://www.acmicpc.net/problem/2170)
 - [MST 게임](https://www.acmicpc.net/problem/16202)
 - [잃어버린 괄호](https://www.acmicpc.net/problem/1541)
