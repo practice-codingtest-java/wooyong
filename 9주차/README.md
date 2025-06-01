@@ -4,7 +4,7 @@
 - 어렵게 출제되면 풀이를 쉽게 떠올리기 힘드니, 문제를 많이 풀어보면서 풀이 방법을 기억하자.
 - **정렬**, **우선순위 큐**를 활용하는 경우가 많다.
 - 예) [프로그래머스 - 큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)
-- ![](https://velog.velcdn.com/images/pppp0722/post/b71a33b6-d4b0-4f24-8b41-711b44f36517/image.png)
+  ![](https://velog.velcdn.com/images/pppp0722/post/b71a33b6-d4b0-4f24-8b41-711b44f36517/image.png)
 
 ## 📝 Common, Private
 
