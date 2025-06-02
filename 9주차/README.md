@@ -1,3 +1,4 @@
+
 # ✅ 9주차 ( 그리디 )
 
 - **부분적인 최적 해가 전체적인 최적 해**가 되는 문제에서 사용한다.
@@ -15,3 +16,14 @@
 - [선 긋기](https://www.acmicpc.net/problem/2170)
 - [MST 게임](https://www.acmicpc.net/problem/16202)
 - [잃어버린 괄호](https://www.acmicpc.net/problem/1541)
+  ```java
+  String[] numArr = str.split("\\+|-");
+  ```
+  - 여러 개의 구부자로 문자열 자르기
+
+  ```java
+  int[] numArr = Arrays.stream(str.split("\\+|-"))  
+          .mapToInt(Integer::parseInt)  
+          .toArray();
+  ```
+  - **Stream**을 이용하여 `String[]` -> `int[]`로 바로 변환
