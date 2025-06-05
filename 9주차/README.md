@@ -15,6 +15,8 @@
 - [카드 정렬하기](https://www.acmicpc.net/problem/1715)
   - 그리디 + `PriorityQueue`
   ```java
+  //queue와 사용방법 똑같음 offer, poll, peek
+  //기본적으로는 최소 힙(min-heap) 으로 동작하여 숫자 기준으로는 작은 값이 우선순위가 높아 먼저 나옴
   PriorityQueue<Integer> pq = new PriorityQueue<>();
   for (int i = 0; i < n; i++) {
       pq.offer(Integer.parseInt(br.readLine()));
