@@ -13,6 +13,19 @@
 
 - [배](https://www.acmicpc.net/problem/1092)
 - [카드 정렬하기](https://www.acmicpc.net/problem/1715)
+  - 그리디 + `PriorityQueue`
+  ```java
+  PriorityQueue<Integer> pq = new PriorityQueue<>();
+  for (int i = 0; i < n; i++) {
+      pq.offer(Integer.parseInt(br.readLine()));
+  }
+  ```
+  - pq 안에 최소 2개가 있을 때 2개를 꺼낼 수 있으므로 `while (!pq.isEmpty())` 말고
+  ```java
+  while (pq.size() > 1) {  
+    //
+  }
+  ```
 - [주식](https://www.acmicpc.net/problem/11501)
   - 규칙 찾은 후 **역방향 탐색**
 - [선 긋기](https://www.acmicpc.net/problem/2170)
