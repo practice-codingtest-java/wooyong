@@ -5,17 +5,79 @@
 
 **<MST를 구하는 알고리즘 2가지>**
 
+<img width="287" alt="mst" src="https://github.com/user-attachments/assets/164c4488-16c1-4152-bae1-ce0cc8507e71" />
+
+`MST 총 가중치: 159`
+
 ***1. Kruskal 알고리즘***
 ```java
-class Edge implements Comparable<Edge> {
-    int from, to, weight;
-    public Edge(int from, int to, int weight) {
-        this.from = from;
-        this.to = to;
-        this.weight = weight;
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    private static int[] parent;
+
+    private static int find(int x) {
+        if (parent[x] != x) parent[x] = find(parent[x]);
+        return parent[x];
     }
-    public int compareTo(Edge o) {
-        return this.weight - o.weight;
+
+    private static boolean union(int a, int b) {
+        int rootA = find(a);
+        int rootB = find(b);
+        if (rootA == rootB) return false;  //같은 집합이면 사이클 발생
+
+        parent[rootB] = rootA;
+        return true;
+    }
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        int V = Integer.parseInt(st.nextToken());  //정점
+        int E = Integer.parseInt(st.nextToken());  //간선
+
+        parent = new int[V + 1];
+        for (int i = 1; i <= V; i++) parent[i] = i;
+
+        List<Edge> edges = new ArrayList<>();
+
+        for (int i = 0; i < E; i++) {
+            st = new StringTokenizer(br.readLine());
+            int from = Integer.parseInt(st.nextToken());
+            int to = Integer.parseInt(st.nextToken());
+            int weight = Integer.parseInt(st.nextToken());
+            edges.add(new Edge(from, to, weight));
+        }
+
+        //weight 기준으로 오름차순 정렬
+        Collections.sort(edges, (e1, e2) -> e1.weight - e2.weight);
+
+        int totalWeight = 0;
+        int edgeCount = 0;
+
+        for (Edge edge : edges) {
+            if (union(edge.from, edge.to)) {  //사이클 방지
+                totalWeight += edge.weight;
+                edgeCount++;
+                if (edgeCount == V - 1) break; //MST 완성
+            }
+        }
+
+        System.out.println("MST 총 가중치: " + totalWeight);
+    }
+
+    private static class Edge {
+        int from;
+        int to;
+        int weight;
+
+        public Edge(int from, int to, int weight) {
+            this.from = from;
+            this.to = to;
+            this.weight = weight;
+        }
     }
 }
 ```
