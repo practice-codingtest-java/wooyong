@@ -107,7 +107,7 @@
 # ✅ 9주차 ( 그리디 )
 
 - [배](https://www.acmicpc.net/problem/1092)
-- [카드 정렬하기](https://www.acmicpc.net/problem/1715)
+- [카드 정렬하기](https://www.acmicpc.net/problem/1715) [⭕]
 - [주식](https://www.acmicpc.net/problem/11501) [⭕]
 - [선 긋기](https://www.acmicpc.net/problem/2170)
 - [MST 게임](https://www.acmicpc.net/problem/16202)
@@ -115,5 +115,5 @@
 <br>
 
 # ✅ 10주차 그리디(Greedy) 활용문제 - 최소 스패닝 트리
-- [도시 분할 계획](https://www.acmicpc.net/problem/1647)
+- [도시 분할 계획](https://www.acmicpc.net/problem/1647) [⭕]
 - [다리 만들기 2](https://www.acmicpc.net/problem/17472)
