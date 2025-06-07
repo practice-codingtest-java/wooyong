@@ -62,7 +62,6 @@ public class Main {
                 if (edgeCount == V - 1) break; //MST 완성
             }
         }
-
         System.out.println("MST 총 가중치: " + totalWeight);
     }
 
@@ -70,7 +69,6 @@ public class Main {
         int from;
         int to;
         int weight;
-
         public Edge(int from, int to, int weight) {
             this.from = from;
             this.to = to;
@@ -84,66 +82,65 @@ public class Main {
 
 ***2. Prim 알고리즘***
 ```java
-import java.io.*;  
-import java.util.*;  
-  
-public class Main {  
-    public static void main(String[] args) throws IOException {  
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  
-        StringTokenizer st = new StringTokenizer(br.readLine());  
-  
-        int V = Integer.parseInt(st.nextToken());  //정점  
-		int E = Integer.parseInt(st.nextToken());  //간선  
-  
-		List<List<Node>> graph = new ArrayList<>();  
-        for (int i = 0 ; i <= V ; i++) {  
-            graph.add(new ArrayList<>());  
-        }  
-  
-        for (int i = 0; i < E; i++) {  
-            st = new StringTokenizer(br.readLine());  
-            int u = Integer.parseInt(st.nextToken());  
-            int v = Integer.parseInt(st.nextToken());  
-            int w = Integer.parseInt(st.nextToken());  
-  
-            graph.get(u).add(new Node(v, w));  
-            graph.get(v).add(new Node(u, w));  
-        }  
-  
-        boolean[] visited = new boolean[V + 1];  
-        // 가중치 오름차순 우선순위큐  
-		PriorityQueue<Node> pq = new PriorityQueue<>(  
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        int V = Integer.parseInt(st.nextToken());  //정점
+        int E = Integer.parseInt(st.nextToken());  //간선
+
+        List<List<Node>> graph = new ArrayList<>();
+        for (int i = 0 ; i <= V ; i++) {
+            graph.add(new ArrayList<>());
+        }
+
+        for (int i = 0; i < E; i++) {
+            st = new StringTokenizer(br.readLine());
+            int u = Integer.parseInt(st.nextToken());
+            int v = Integer.parseInt(st.nextToken());
+            int w = Integer.parseInt(st.nextToken());
+
+            graph.get(u).add(new Node(v, w));
+            graph.get(v).add(new Node(u, w));
+        }
+
+        boolean[] visited = new boolean[V + 1];
+        // 가중치 오름차순 우선순위큐
+        PriorityQueue<Node> pq = new PriorityQueue<>(
                 (a, b) -> a.weight - b.weight
-        );  
-  
-        int start = 1;  //시작 정점  
-		pq.offer(new Node(start, 0));  
-        int totalWeight = 0;  
-  
-        while (!pq.isEmpty()) {  
-            Node curr = pq.poll();  
-  
-            if (visited[curr.to]) continue;  
-  
-            visited[curr.to] = true;  
-            totalWeight += curr.weight;  
-  
-            for (Node next :graph.get(curr.to)) {  
-                if (!visited[next.to]) pq.offer(next);  
-            }  
-        }  
-        System.out.println("MST 총 가중치: " + totalWeight);  
-    }  
-  
-    private static class Node {  
-        int to;  
-        int weight;  
-  
-        public Node(int to, int weight) {  
-            this.to = to;  
-            this.weight = weight;  
-        }  
-    }  
+        );
+
+        int start = 1;  //시작 정점
+        pq.offer(new Node(start, 0));
+        int totalWeight = 0;
+
+        while (!pq.isEmpty()) {
+            Node curr = pq.poll();
+
+            if (visited[curr.to]) continue;
+
+            visited[curr.to] = true;
+            totalWeight += curr.weight;
+
+            for (Node next :graph.get(curr.to)) {
+                if (!visited[next.to]) pq.offer(next);
+            }
+        }
+        System.out.println("MST 총 가중치: " + totalWeight);
+    }
+
+    private static class Node {
+        int to;
+        int weight;
+        public Node(int to, int weight) {
+            this.to = to;
+            this.weight = weight;
+        }
+    }
 }
 ```
 -   하나의 정점에서 시작
@@ -151,7 +148,6 @@ public class Main {
 -   아직 방문하지 않은 정점 중 가중치 가장 작은 간선을 선택 -> **PriorityQueue**를 통해 가중치 가장 작은 간선
 -   방문 표시 + 가중치 누적 + 연결 간선 큐에 추가
 -   반복
-
 
 **Kruskal vs Prim**
 -   Kruskal은 **간선을 기준**으로, Prim은 **정점을 기준**으로 동작
