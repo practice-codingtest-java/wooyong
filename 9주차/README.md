@@ -31,6 +31,12 @@
 - [주식](https://www.acmicpc.net/problem/11501)
   - 규칙 찾은 후 **역방향 탐색**
 - [선 긋기](https://www.acmicpc.net/problem/2170)
+  ```java
+  List<Node> list = new ArrayList<>();
+  list.sort((a, b) -> a.x - b.x);
+  ```
+  - Node 클래스의 x 변수 기준으로 오름차순 정렬
+
 - [MST 게임](https://www.acmicpc.net/problem/16202)
 - [잃어버린 괄호](https://www.acmicpc.net/problem/1541)
   ```java
