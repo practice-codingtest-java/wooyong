@@ -38,6 +38,7 @@
   - Node 클래스의 x 변수 기준으로 오름차순 정렬
 
 - [MST 게임](https://www.acmicpc.net/problem/16202)
+  - MST 구하기 -> `Kruskal` vs `Prim` : 간선을 제거하면서 구해야 하므로 **Kruskal**이 좋음
 - [잃어버린 괄호](https://www.acmicpc.net/problem/1541)
   ```java
   String[] numArr = str.split("\\+|-");
