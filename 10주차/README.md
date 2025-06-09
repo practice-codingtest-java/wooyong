@@ -163,3 +163,4 @@ public class Main {
 
 - [도시 분할 계획](https://www.acmicpc.net/problem/1647)
 - [다리 만들기 2](https://www.acmicpc.net/problem/17472)
+  - 2차원 배열(구역 나누기, 간선 추출) -> 그래프 후 **MST** 구하기
