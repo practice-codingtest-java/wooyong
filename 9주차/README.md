@@ -12,6 +12,12 @@
 ## 📝 Common, Private
 
 - [배](https://www.acmicpc.net/problem/1092)
+  ```java
+  Integer[] crane = new Integer[n];
+  Arrays.sort(crane, Collections.reverseOrder());
+  ```
+  - **Array 내림차순** 정렬
+  - int, char, long 같은 원시 타입 배열에는 적용 불가능
 - [카드 정렬하기](https://www.acmicpc.net/problem/1715)
   - 그리디 + `PriorityQueue`
   ```java
