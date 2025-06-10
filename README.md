@@ -106,14 +106,23 @@
 
 # ✅ 9주차 ( 그리디 )
 
-- [배](https://www.acmicpc.net/problem/1092)
+- [배](https://www.acmicpc.net/problem/1092) [⭕]
 - [카드 정렬하기](https://www.acmicpc.net/problem/1715) [⭕]
 - [주식](https://www.acmicpc.net/problem/11501) [⭕]
 - [선 긋기](https://www.acmicpc.net/problem/2170) [⭕]
-- [MST 게임](https://www.acmicpc.net/problem/16202)
+- [MST 게임](https://www.acmicpc.net/problem/16202) [⭕]
 - [잃어버린 괄호](https://www.acmicpc.net/problem/1541) [⭕]
 <br>
 
 # ✅ 10주차 그리디(Greedy) 활용문제 - 최소 스패닝 트리
 - [도시 분할 계획](https://www.acmicpc.net/problem/1647) [⭕]
-- [다리 만들기 2](https://www.acmicpc.net/problem/17472)
+- [다리 만들기 2](https://www.acmicpc.net/problem/17472) [⭕]
+
+# ✅ 11주차 각 주차 복습 - 골1~골4
+- [구슬 탈출](https://www.acmicpc.net/problem/13460)
+- [세 수의 합](https://www.acmicpc.net/problem/2295) [⭕]
+- [탑 보기](https://www.acmicpc.net/problem/22866)
+- [베스트 앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
+- [문자열 폭발](https://www.acmicpc.net/problem/9935)
+- [트리의 지름](https://www.acmicpc.net/problem/1167)
+- [저울](https://www.acmicpc.net/problem/2437)
