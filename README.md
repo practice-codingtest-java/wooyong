@@ -119,10 +119,11 @@
 - [다리 만들기 2](https://www.acmicpc.net/problem/17472) [⭕]
 
 # ✅ 11주차 각 주차 복습 - 골1~골4
-- [구슬 탈출](https://www.acmicpc.net/problem/13460)
+- [구슬 탈출 2](https://www.acmicpc.net/problem/13460) [⭕]
 - [세 수의 합](https://www.acmicpc.net/problem/2295) [⭕]
 - [탑 보기](https://www.acmicpc.net/problem/22866)
 - [베스트 앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
 - [문자열 폭발](https://www.acmicpc.net/problem/9935)
 - [트리의 지름](https://www.acmicpc.net/problem/1167)
 - [저울](https://www.acmicpc.net/problem/2437)
+- [사전 순 최대 공통 부분 수열](https://www.acmicpc.net/problem/30805)
