@@ -38,5 +38,16 @@
   }
   ```
 - [트리의 지름](https://www.acmicpc.net/problem/1167)
+  - 트리의 지름 구하는 과정
+  ```text
+  1. 임의의 노드로부터 가장 멀리 있는 노드 A를 찾음
+  2. 노드 A로부터 가장 멀리 있는 노드 B를 찾음
+  3. A와 B 사이의 거리가 트리의 지름
+  ```
+  - 노드로부터 거리 저장하는 배열 필요
+   ```java
+  distance = new int[v + 1];
+  ```  
+  - DFS, BFS 둘 다 가능하나 DFS가 더 적합한 풀이
 - [저울](https://www.acmicpc.net/problem/2437)
 - [사전 순 최대 공통 부분 수열](https://www.acmicpc.net/problem/30805)
