@@ -71,3 +71,4 @@
   - DFS, BFS 둘 다 가능하나 DFS가 더 적합한 풀이
 - [저울](https://www.acmicpc.net/problem/2437)
 - [사전 순 최대 공통 부분 수열](https://www.acmicpc.net/problem/30805)
+  - `LCS` 알고리즘인줄 알았는데, 사전순이라는 조건으로 인해 일반 그리디 문제 
