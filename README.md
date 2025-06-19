@@ -122,9 +122,17 @@
 # ✅ 11주차 각 주차 복습 - 골1~골4
 - [구슬 탈출 2](https://www.acmicpc.net/problem/13460) [⭕]
 - [세 수의 합](https://www.acmicpc.net/problem/2295) [⭕]
-- [탑 보기](https://www.acmicpc.net/problem/22866)
+- [탑 보기](https://www.acmicpc.net/problem/22866) [❌]
 - [베스트 앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) [⭕]
 - [문자열 폭발](https://www.acmicpc.net/problem/9935) [⭕]
 - [트리의 지름](https://www.acmicpc.net/problem/1167) [⭕]
-- [저울](https://www.acmicpc.net/problem/2437)
+- [저울](https://www.acmicpc.net/problem/2437) [❌]
 - [사전 순 최대 공통 부분 수열](https://www.acmicpc.net/problem/30805) [⭕]
+<br>
+
+# ✅ 12주차 구현
+- [⚾️](https://www.acmicpc.net/problem/17281)
+- [LCS 2](https://www.acmicpc.net/problem/9252) [⭕]
+- [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
+- [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)
+- [주사위굴리기](https://www.acmicpc.net/problem/23288)
