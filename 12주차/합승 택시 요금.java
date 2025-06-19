@@ -36,6 +36,7 @@ public class Main { ;
         dijkstra(s);
         dijkstra(a);
         dijkstra(b);
+        // 처음에는 모든 노드에 대해 dijkstra알고리즘을 적용했는데, 효율성 테스트에서 48.3 / 50.0을 받아 필요한 노드만 적용하도록 개선
 
         int minDist = Integer.MAX_VALUE;
 
