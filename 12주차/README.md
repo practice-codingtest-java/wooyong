@@ -8,8 +8,8 @@
 	> [그림으로 알아보는 LCS 알고리즘 - Longest Common Substring와 Longest Common Subsequence](https://velog.io/@emplam27/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-LCS-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Longest-Common-Substring%EC%99%80-Longest-Common-Subsequence#%EC%B5%9C%EC%9E%A5-%EA%B3%B5%ED%86%B5-%EB%AC%B8%EC%9E%90%EC%97%B4longest-common-substring)
 - [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
 - [주사위굴리기](https://www.acmicpc.net/problem/23288)
-- [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)
-	**다익스트라 알고리즘**: 그래프에서 여러 개의 노드가 있을 때 **특정 노드**에서 **다른 노드**로 가는 각각의 최단 경로를 구해주는 알고리즘
+- [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)  
+ 	**다익스트라 알고리즘**: 그래프에서 여러 개의 노드가 있을 때 **특정 노드**에서 **다른 노드**로 가는 각각의 최단 경로를 구해주는 알고리즘
 	```java
 	import java.io.*;
 	import java.util.*;
