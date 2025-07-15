@@ -131,8 +131,8 @@
 <br>
 
 # ✅ 12주차 구현
-- [⚾️](https://www.acmicpc.net/problem/17281)
+- [⚾️](https://www.acmicpc.net/problem/17281) [⭕]
 - [LCS 2](https://www.acmicpc.net/problem/9252) [⭕]
 - [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
-- [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)
+- [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) [⭕]
 - [주사위굴리기](https://www.acmicpc.net/problem/23288)
